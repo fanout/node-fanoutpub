@@ -1,7 +1,7 @@
 nodefpp - Fanout Pubsub Protocol Library for NodeJS
 ===================================================
 
-Date: April 3rd, 2013
+Date: April 3rd, 2013  
 Author: Katsuyuki Ohmuro <harmony7@pex2.jp>
 
 Description
@@ -23,7 +23,7 @@ set up a publisher when working with the Fanout service.
 Requirements
 ------------
 
-  pubcontrol
+    pubcontrol
 
 Sample usage
 ------------
@@ -78,5 +78,5 @@ creating authentication objects.
 License
 -------
 
-(C) 2013 Fan Out Networks, Inc.
+(C) 2013 Fan Out Networks, Inc.  
 Licensed under the MIT License, see file COPYING for details.
