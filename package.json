@@ -1,4 +1,30 @@
 {
-    "name" : "fpp",
-    "main" : "./lib/fpp"
+    "name": "fpp",
+    "version": "0.1.0",
+    "author": "Fan Out Networks, Inc. <info@fanout.io>",
+    "description": "Fanout Pubsub Protocol Library",
+    "contributors": [
+        {
+            "name": "Katsuyuki Ohmuro",
+            "email": "harmony7@pex2.jp"
+        }
+    ],
+    "main": "./lib/fpp",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fanout/nodefpp.git"
+    },
+    "readmeFilename": "README.md",
+    "keywords": [
+        "fpp",
+        "fanout",
+        "realtime",
+        "push",
+        "pubcontrol",
+        "publish"
+    ],
+    "dependencies": {
+        "pubcontrol": "*"
+    },
+    "license": "MIT"
 }
