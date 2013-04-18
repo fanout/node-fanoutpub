@@ -14,7 +14,8 @@ var endpoint = "http://localhost:1337";
 var pub = new fpp.FppPubControl(endpoint);
 
 // Publish message
-pub.publish("test", "hello world", function(success, message) {
+pub.publish("test", "hello world", function(success, message, context) {
     console.log(success);
-    console.dir(message);
+    console.log(message);
+    console.dir(context);
 });

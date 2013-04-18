@@ -13,7 +13,8 @@ var realmKeyBase64 = "###########"; // fanout realm key
 var pub = fpp.fanout(realmName, realmKeyBase64);
 
 // Publish message
-pub.publish("test", "hello world", function(success, message) {
+pub.publish("test", "hello world", function(success, message, context) {
     console.log(success);
-    console.dir(message);
+    console.log(message);
+    console.dir(context);
 });
