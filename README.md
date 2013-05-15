@@ -1,8 +1,8 @@
 nodefpp - Fanout Pubsub Protocol Library for NodeJS
 ===================================================
 
-Version: v 0.1.1  
-Date: April 18th, 2013  
+Version: v 0.1.2  
+Date: May 15th, 2013  
 Author: Katsuyuki Ohmuro <harmony7@pex2.jp>
 
 Description
@@ -80,5 +80,5 @@ creating authentication objects.
 License
 -------
 
-(C) 2013 Fan Out Networks, Inc.  
+(C) 2013 Fanout, Inc.  
 Licensed under the MIT License, see file COPYING for details.
