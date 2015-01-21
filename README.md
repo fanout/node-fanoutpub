@@ -1,8 +1,8 @@
 Fanout.io Library for NodeJS
 ===================================================
 
-Version: v 1.0.0  
-Date: January 20th, 2015  
+Version: v 1.0.1  
+Date: January 21th, 2015  
 Author: Katsuyuki Ohmuro <harmony7@pex2.jp>, Konstantin Bokarius <kon@fanout.io>
 
 Description
