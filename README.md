@@ -44,7 +44,7 @@ var callback = function(success, message, context) {
 
 var fanout = new fanout.Fanout('<myrealm>', '<myrealmkey>');
 fanout.publish('<channel>', 'Test Publish!', callback);
-```javascript
+```
 
 License
 -------
