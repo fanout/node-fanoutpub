@@ -24,11 +24,11 @@ Requirements
 Sample Usage
 ------------
 
-The simple usage of node-fanoutpub is with Fanout' service. This usage requires a realm name and a base64-encoded realm key, which are available to users of the Fanout service.
+The simple usage of node-fanoutpub is with the Fanout.io service. This usage requires a realm name and a base64-encoded realm key, which are available to users of the Fanout service.
 
 ```javascript
 var util = require('util');
-var fanout = require('fanout');
+var fanout = require('fanoutpub');
 
 var callback = function(success, message, context) {
     if (success) {
