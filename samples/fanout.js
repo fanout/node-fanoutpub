@@ -1,20 +1,26 @@
 // fpp-fanout.js
 // (C) 2013 Fanout, Inc.
-// File author: Katsuyuki Ohmuro <harmony7@pex2.jp>
+// File authors:
+// Katsuyuki Ohmuro <harmony7@pex2.jp>
+// Konstantin Bokarius <kon@fanout.io>
 // Licensed under the MIT License, see file COPYING for details.
 
-// This example uses FPP to send a message through fanout.io
+// This example uses fanoutpub to send a message through fanout.io
 
-var fpp = require('fpp');
+var util = require('util');
+var fanout = require('fanoutpub');
 
-// Authentication / Create Publisher with Fanout
-var realmName = "myrealm";          // fanout realm name
-var realmKeyBase64 = "###########"; // fanout realm key
-var pub = fpp.fanout(realmName, realmKeyBase64);
+var callback = function(success, message, context) {
+    if (success) {
+        console.log('Publish successful!');
+    }
+    else {
+        console.log('Publish failed!');
+        console.log('Message: ' + message);
+        console.log('Context: ');
+        console.dir(context); 
+    }
+};
 
-// Publish message
-pub.publish("test", "hello world", function(success, message, context) {
-    console.log(success);
-    console.log(message);
-    console.dir(context);
-});
+var fanout = new fanout.Fanout('<myrealm>', '<myrealmkey>');
+fanout.publish('<channel>', 'Test Publish!', callback);
