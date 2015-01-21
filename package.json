@@ -1,18 +1,22 @@
 {
-    "name": "fpp",
-    "version": "0.1.2",
+    "name": "fanoutpub",
+    "version": "1.0.0",
     "author": "Fanout, Inc. <info@fanout.io>",
     "description": "Fanout Pubsub Protocol Library",
     "contributors": [
         {
             "name": "Katsuyuki Ohmuro",
             "email": "harmony7@pex2.jp"
+        },
+        {
+            "name": "Konstantin Bokarius",
+            "email": "kon@fanout.io"
         }
     ],
-    "main": "./lib/fpp",
+    "main": "./lib/fanoutpub",
     "repository": {
         "type": "git",
-        "url": "https://github.com/fanout/nodefpp.git"
+        "url": "https://github.com/fanout/node-fanoutpub.git"
     },
     "readmeFilename": "README.md",
     "keywords": [
