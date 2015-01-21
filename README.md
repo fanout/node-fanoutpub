@@ -1,4 +1,4 @@
-node-fanoutpub - Fanout.io Library for NodeJS
+Fanout.io Library for NodeJS
 ===================================================
 
 Version: v 1.0.0  
