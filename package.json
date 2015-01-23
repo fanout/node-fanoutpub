@@ -29,7 +29,7 @@
         "publish"
     ],
     "dependencies": {
-        "pubcontrol": "*"
+        "pubcontrol": ">=1.x"
     },
     "license": "MIT"
 }
