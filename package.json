@@ -1,6 +1,6 @@
 {
     "name": "fanoutpub",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": "Fanout, Inc. <info@fanout.io>",
     "description": "Fanout Pubsub Protocol Library",
     "contributors": [
@@ -29,7 +29,7 @@
         "publish"
     ],
     "dependencies": {
-        "pubcontrol": ">=1.x"
+        "pubcontrol": "1.x"
     },
     "license": "MIT"
 }
